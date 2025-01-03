@@ -1,6 +1,8 @@
-# Automatic Initiative
+# Foundry VTT module boilerplate
 
-When tokens are added to combat, automatically rolls initiative for NPCs and
-prompts players to roll initiative.
+## Set up
+* run `bun install`
+* Create .env with VITE_REPO variable
+* Populate module.json and package.json
 
 ## Changelog

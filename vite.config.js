@@ -27,17 +27,10 @@ export default defineConfig({
       formats: ['es'],
       fileName: 'index',
     },
-//    lib: {
-//      name: 'automatic-initiative',
-//      entry: 'index.js',
-//      formats: ['es'],
-//      fileName: 'automatic-initiative'
-//    },
     rollupOptions: {
       input: 'scripts/module.js',
       output: {
         dir: 'dist/',
-//        file: 'dist/scripts/module.js',
         format: 'es',
       }
     }
